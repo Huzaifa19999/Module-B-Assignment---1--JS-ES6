@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search A Phone</title>
+   
+  </head>
+  <body >
+
+
+<h1>Search Phone</h1>
+
+    <div>
+      <select
+        name=""
+        onchange="fillModel()"
+        id="phoneParent"
+      >
+      <option value="">Select Brand</option></select>
+      <select
+        name=""
+        onchange="showSpecs()"
+        disabled
+        id="modelParent"
+      ></select>
+    </div>
+
+      <div>
+        <ul id="specsParent"></ul>
+      </div>
+    <script src="app.js"></script>
+  </body>
+</html>
