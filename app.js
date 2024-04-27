@@ -112,7 +112,6 @@ var a = {
   
   function fillModel() {
     phoneModel.disabled = false;
-    phoneModel.className += " bg-dark text-white";
     let models = Object.keys(a.mobiles[phoneName.value]);
     console.log(models);
     phoneModel.innerHTML = "";
